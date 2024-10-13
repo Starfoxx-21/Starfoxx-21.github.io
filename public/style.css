@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* body {
+    height: 100%;
+    width: 100%;
+} */
+
+html {
+    height: 100%;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scroll-snap-type: y mandatory; /* Enable vertical snapping */
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+section {
+    min-height: 100vh;
+    scroll-snap-align: start;
+    flex-direction: column;
+    justify-content: center; 
+} 
+
+.scrollbar {
+    position: fixed;
+    top: 50%;
+    right: 340px;
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    z-index: 1000; 
+}
+
+.dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.dot-white {
+    background-color: #ffffff;
+}
+
+.dot.dot-grey {
+    background-color: #737373;
+} 
+
+.active-page {
+    background: #592683;
+    box-shadow: 0 0 0 8px rgba(89, 38, 131, 0.3);
+    border-radius: 50%;
+}
+
+.first-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/public/images/stars-aesthetic-pastel-wallpapers.png");
+    background-size: cover;
+    background-position-y: -60px;
+    color: #6a67ce;
+    text-align: center;
+}
+
+.first-page .logo {
+    width: 120px;
+    margin-top: 17%;
+}
+
+.introduction-container h1, h2 {
+    padding-left: 8px;
+    text-shadow: 
+    -1px -1px 0 white,  /* Top-left */
+     1px -1px 0 white,  /* Top-right */
+    -1px  1px 0 white,  /* Bottom-left */
+     1px  1px 0 white;  /* Bottom-right */
+     font-weight: 400;
+}
+
+.introduction-container h1 {
+    margin-top: -22px;
+    font-size: 80px;
+}
+
+.introduction-container h2 {
+    font-size: 25px;
+}
+
+.scrolldown {
+    width: 120px;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.second-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.second-page-container {
+    width: 50%;
+    margin: auto;
+}
+
+.straight-line-down {
+    position: absolute;
+    width: 80px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content-container {
+    display: grid;
+    grid-template-rows: auto 350px auto auto auto;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    /* height: calc(100vh - 170px); */
+}
+
+.title {
+    height: 40px;
+    padding: 0;
+    color: #737373;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pic-info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pic-container {
+    position: relative;
+}
+
+.violet-circle {
+    position: absolute;
+    top: 45px;
+    left: 87px;
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    background-color: #d4bdef;
+}
+
+.white-square {
+    position: absolute;
+    top: 45px;
+    left: 70px;
+    height: 280px;
+    width: 160px;
+    background-color: white;
+}
+
+.black-circle {
+    position: absolute;
+    top: 50px;
+    left: 88px;
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background-color: #5f5e5e;
+}
+
+.bl-white-square {
+    position: absolute;
+    top: 45px;
+    left: 150px;
+    height: 290px;
+    width: 99px;
+    background-color: white;
+}
+
+.me {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.planet {
+    position: absolute;
+    top: -50px;
+    left: -40px;
+    width: 130px;
+}
+
+.stars {
+    position: absolute;
+    top: 150px;
+    left: -80px;
+    width: 210px;
+    transform: rotate(-5deg);
+}
+
+.info-container {
+    position: relative;
+}
+
+.satellite {
+    position: absolute;
+    right: 0;
+    width: 100px;
+}
+
+.info-section {
+    padding-top: 60px;
+}
+
+.titles {
+    color: #d4bdef;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.social-icons img {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-right: 10px;
+}
+
+.second-page p {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #97989b;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.text-interests-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-interests-container p {
+    padding-top: 30px;
+    flex-basis: 100%;
+}
+
+.text-interests-container h2 {
+    padding-top: 10px;
+    flex-basis: 100%;
+}
+
+.interests-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 50px; 
+    flex-basis: 100%;
+}
+
+.interests-container img {
+    padding-top: 30px;
+    width: 100px;
+}
+
+.straight-line-up {
+    position: absolute;
+    width: 80px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
