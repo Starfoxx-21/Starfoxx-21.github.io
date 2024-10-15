@@ -41,6 +41,7 @@ section {
     height: 12px;
     border-radius: 50%;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .dot.dot-white {
@@ -51,8 +52,8 @@ section {
     background-color: #737373;
 } 
 
-.active-page {
-    background: #592683;
+.dot.active-page {
+    background-color: #592683;
     box-shadow: 0 0 0 8px rgba(89, 38, 131, 0.3);
     border-radius: 50%;
 }
@@ -60,7 +61,7 @@ section {
 .first-page {
     width: 100%;
     height: 100vh;
-    background-image: url("/public/images/stars-aesthetic-pastel-wallpapers.png");
+    background-image: url("./images/stars-aesthetic-pastel-wallpapers.png");
     background-size: cover;
     background-position-y: -60px;
     color: #6a67ce;
@@ -282,4 +283,25 @@ a {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.third-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #988fd6;
+}
+
+.fourth-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.fifth-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #d4bdef;
 }
