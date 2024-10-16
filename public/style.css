@@ -4,11 +4,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* body {
-    height: 100%;
-    width: 100%;
-} */
-
 html {
     height: 100%;
     overflow-y: scroll; /* Enable vertical scrolling */
@@ -73,7 +68,7 @@ section {
     margin-top: 17%;
 }
 
-.introduction-container h1, h2 {
+.introduction-container h1, .introduction-container h2 {
     padding-left: 8px;
     text-shadow: 
     -1px -1px 0 white,  /* Top-left */
@@ -100,10 +95,13 @@ section {
     transform: translateX(-50%);
 }
 
-.second-page {
+.page {
     position: relative;
     width: 100%;
     height: 100vh;
+}
+
+.page.second {
     background-color: #ffffff;
 }
 
@@ -121,20 +119,24 @@ section {
 }
 
 .content-container {
-    display: grid;
-    grid-template-rows: auto 350px auto auto auto;
     padding-top: 90px;
     padding-bottom: 60px;
-    /* height: calc(100vh - 170px); */
 }
 
 .title {
     height: 40px;
     padding: 0;
-    color: #737373;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+}
+
+.title.grey {
+    color: #737373;
+}
+
+.title.white {
+    color: white;
 }
 
 .pic-info-container {
@@ -238,7 +240,7 @@ a {
     margin-right: 10px;
 }
 
-.second-page p {
+.page.second p {
     padding-top: 18px;
     padding-bottom: 18px;
     color: #97989b;
@@ -285,23 +287,34 @@ a {
     transform: translateX(-50%);
 }
 
-.third-page {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+.page.third {
     background-color: #988fd6;
 }
 
-.fourth-page {
+.third-content-container {
     position: relative;
-    width: 100%;
-    height: 100vh;
+    width: 60%;
+    margin: auto;
+}
+
+.star-heading-left {
+    position: absolute;
+    width: 170px;
+    left: 170px;
+    top: 1px;
+}
+
+.star-heading-right {
+    position: absolute;
+    width: 170px;
+    left: 785px;
+    top: 45px;
+}
+
+.page.fourth {
     background-color: white;
 }
 
-.fifth-page {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+.page.fifth {
     background-color: #d4bdef;
 }
