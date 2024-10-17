@@ -16,13 +16,13 @@ section {
     min-height: 100vh;
     scroll-snap-align: start;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
 } 
 
 .scrollbar {
     position: fixed;
     top: 50%;
-    right: 340px;
+    right: 250px;
     transform: translateY(-50%); 
     display: flex;
     flex-direction: column;
@@ -292,23 +292,134 @@ a {
 }
 
 .third-content-container {
-    position: relative;
+    
     width: 60%;
     margin: auto;
+}
+
+.third-page-title {
+    position: relative;
 }
 
 .star-heading-left {
     position: absolute;
     width: 170px;
     left: 170px;
-    top: 1px;
+    top: -90px;
 }
 
 .star-heading-right {
     position: absolute;
     width: 170px;
     left: 785px;
-    top: 45px;
+    top: -40px;
+}
+
+.skill-tree-container {
+    display: grid;
+    grid-template-columns: 2fr auto 2fr;
+    padding-top: 10px;
+}
+
+.skill-tree-image {
+    height: 605px;
+    width: 120px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.date-timeline-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto;
+    margin-right: 20px;
+    gap: 68px;
+    padding-bottom: 3px;
+}
+
+.date-timeline-container span {
+    min-width: 100%;
+}
+
+.date-timeline {
+    border: 12px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: #737373;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.exp-timeline-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 20px;
+    gap: 65px;
+    padding-bottom: 10px;
+}
+
+.exp-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.exp-details {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fedfe8;
+    padding-top: 5px;
+}
+
+.web-dev-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+.web-dev-loading-msg {
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+}
+
+.loading-dots {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 6px;
+}
+
+.loading-dots span {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    animation: load 1s infinite alternate;
+}
+
+.loading-dots span:nth-of-type(2) {
+    background-color: white;
+    animation-delay: 0.2s;
+}
+
+.loading-dots span:nth-of-type(3) {
+    background-color: white;
+    animation-delay: 0.2s;
+}
+
+@keyframes load {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .page.fourth {
