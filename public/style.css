@@ -225,6 +225,7 @@ section {
 }
 
 .titles {
+    display: inline-block;
     color: #d4bdef;
     font-weight: 700;
     padding-left: 0;
@@ -292,7 +293,6 @@ a {
 }
 
 .third-content-container {
-    
     width: 60%;
     margin: auto;
 }
@@ -425,6 +425,52 @@ a {
 .page.fourth {
     background-color: white;
 }
+
+.fourth-content-container {
+    width: 60%;
+    margin: auto;
+}
+
+.skills-container-and-img {
+    display: flex;
+    padding-top: 30px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 40px;
+}
+
+.title-skill {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.list-style {
+    padding-top: 10px;
+    padding-left: 30px;
+    color: #97989b;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.git-img {
+    height: 650px;
+    width: 160px;
+    object-fit: cover;
+}
+
+video {
+    margin: auto;
+    height: 400px;
+    width: 400px;
+}
+
 
 .page.fifth {
     background-color: #d4bdef;
