@@ -58,3 +58,28 @@ function setActiveDot(pageId) {
         newActive.classList.add("active-page");
     }
 }
+
+const buttons = document.querySelectorAll('button');
+buttons.forEach( button => {
+    button.addEventListener('click', showAnswer);
+})
+
+function showAnswer(answerID) {
+    const answer = document.getElementById(answerID);
+
+    if (answer.style.visibility === "hidden" || answer.style.visibility === "") {
+        answer.style.visibility = "visible";
+
+        setTimeout(function() {
+            answer.style.opacity = 1;
+            answer.style.transform = "translateY(0)";
+        }, 10); 
+    } else {
+        answer.style.opacity = 0;
+        answer.style.transform = "translateY(20px)";
+        
+        setTimeout(function() {
+            answer.style.visibility = "hidden";
+        }, 500); 
+    }
+}

@@ -472,7 +472,73 @@ video {
     width: 400px;
 }
 
-
 .page.fifth {
     background-color: #d4bdef;
+}
+
+.fifth-content-container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jokes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 25px;
+}
+
+.img-404 {
+    height: 180px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.question-button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.question-button-container h2 {
+    color: #2a2550
+}
+
+.question-button-container button {
+    font-size: 15px;
+    font-weight: 500;
+    color: #737373;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+.question-button-container button:hover {
+    border-color: #0056b3;      
+    transform: scale(1.05);      
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.answer {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.mini-logo {
+    padding-top: 50px;
+    width: 100px;
 }
