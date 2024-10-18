@@ -12,7 +12,6 @@ function scrollbarButtonClickHandler(event) {
     }
 
     event.target.classList.add("active-page");
-    console.log(event.target);
 }
 
 window.addEventListener("scroll", handleScroll);
@@ -20,13 +19,13 @@ window.addEventListener("scroll", handleScroll);
 function handleScroll() {
     const scrollPosition = window.scrollY;
 
-    if (scrollPosition < 920) {
+    if (scrollPosition <= 910) {
         setActiveDot("page1");
-    } else if (scrollPosition < 1840) {
+    } else if (scrollPosition <= 1830) {
         setActiveDot("page2");
-    } else if (scrollPosition < 2760) {
+    } else if (scrollPosition <= 2750) {
         setActiveDot("page3");
-    } else if (scrollPosition < 3680) {
+    } else if (scrollPosition <= 3670) {
         setActiveDot("page4");
     } else {
         setActiveDot("page5");
