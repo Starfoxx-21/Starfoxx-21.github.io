@@ -1,3 +1,30 @@
+@media only screen and (max-width: 1600px) {
+
+    .first-page{
+        background-position:top;
+    }
+
+    .first-page .logo {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 1525px) {
+
+    .first-page .logo {
+        margin-top: 300px;
+        width: 100px;
+    }
+
+    .introduction-container h1 {
+        font-size: 65px;
+    }
+
+    .introduction-container h2 {
+        font-size: 22px;
+    }
+}
+
 @media only screen and (max-width: 1288px) {
     
     html {
@@ -12,16 +39,13 @@
     .second-page-container, .third-content-container, .fourth-content-container, .fifth-content-container  {
         width: 70%;
     }
-
-
 }
 
 @media only screen and (max-width: 1024px) {
 
     .second-page-container, .third-content-container, .fourth-content-container, .fifth-content-container  {
-        width: 100%;
+        width: 80%;
     }
-    
 }
 
 @media only screen and (max-width: 768px) {
