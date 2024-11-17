@@ -1,7 +1,6 @@
 const scrollbar_buttons = document.querySelectorAll(".dot");
 
-scrollbar_buttons.forEach(button => {
-    button.addEventListener("click", scrollbarButtonClickHandler);
+scrollbar_buttons.forEach(button => {button.addEventListener("click", scrollbarButtonClickHandler);
 });
 
 function scrollbarButtonClickHandler(event) {

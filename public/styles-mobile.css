@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1288px) {
+    
+    html {
+        scroll-snap-type: none;
+        scrollbar-width: auto;
+    }
+
+    .scrollbar {
+        display: none;
+    }
+
+    .second-page-container, .third-content-container, .fourth-content-container, .fifth-content-container  {
+        width: 70%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .second-page-container, .third-content-container, .fourth-content-container, .fifth-content-container  {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+
+}
