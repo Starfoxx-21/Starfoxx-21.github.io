@@ -1,27 +1,7 @@
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1665px) {
 
-    .first-page{
-        background-position:top;
-    }
-
-    .first-page .logo {
-        margin-top: 20%;
-    }
-}
-
-@media only screen and (max-width: 1525px) {
-
-    .first-page .logo {
-        margin-top: 300px;
-        width: 100px;
-    }
-
-    .introduction-container h1 {
-        font-size: 65px;
-    }
-
-    .introduction-container h2 {
-        font-size: 22px;
+    .second-page-container {
+        width: 60%;
     }
 }
 
@@ -36,15 +16,52 @@
         display: none;
     }
 
-    .second-page-container, .third-content-container, .fourth-content-container, .fifth-content-container  {
+    .second-page-container, .third-content-container, .fourth-content-container, .fifth-content-container {
         width: 70%;
     }
 }
 
 @media only screen and (max-width: 1024px) {
 
-    .second-page-container, .third-content-container, .fourth-content-container, .fifth-content-container  {
+    .second-page-container, .third-content-container, .fourth-content-container, .fifth-content-container {
         width: 80%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .planet {
+        right: 60%;
+    }
+
+    .stars {
+        left: -18%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .pic-info-container {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .pic-container {
+        grid-row: 1 / 2;
+        height: 350px;
+        min-width: 450px;
+        margin: 0px auto;
+    }
+
+    .info-container {
+        grid-row: 2 / 3;
+    }
+
+    .info-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
 
