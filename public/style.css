@@ -13,16 +13,13 @@ html {
 }
 
 section {
-    min-height: 100vh;
+    min-height: min(100vh, 100vw);
     scroll-snap-align: start;
-    flex-direction: column;
-    justify-content: center;
 } 
 
 .scrollbar {
     position: fixed;
     top: 50%;
-    /* right: 250px; */
     right: 15%;
     transform: translateY(-50%); 
     display: flex;
@@ -56,10 +53,14 @@ section {
 
 .first-page {
     width: 100%;
-    height: 100vh;
     background: linear-gradient(45deg, #fdfdfd, rgb(223, 222, 222) ,#595a5a);
     color: black;
     text-align: center;
+}
+
+.first-page-container {
+    display: flex;
+    justify-content: center;
 }
 
 .introduction-container {
@@ -68,20 +69,20 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    transform: translateY(-65px); 
+    transform: translateY(min(-4vh, -4vw));
 }
 
 .first-page .logo {
-    width: 150px;
+    width: min(18vh, 18vw);
 }
 
 .introduction-container h1 {
-    margin-top: -25px;
-    font-size: 70px;
+    margin-top: -3vh;
+    font-size: min(8vh, 8vw);
 }
 
 .introduction-container h2 {
-    font-size: 22px;
+    font-size: min(2.5vh, 2.5vw);
 }
 
 .first-page-circle {
@@ -96,13 +97,17 @@ section {
 }
 
 .outer {
-    width: 650px;
-    height: 650px;
+    max-width: 650px;
+    max-height: 650px;
+    width: min(90vh, 90vw);
+    height: min(90vh, 90vw);
 }
 
 .inner {
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    width: min(70vh, 70vw);
+    height: min(70vh, 70vw);
 }
 
 .ball {
@@ -117,91 +122,33 @@ section {
 }
 
 .big {
-    width: 30px;
-    height: 30px;
+    width: 4vh;
+    height: 4vh;
 }
 
 .small {
-    width: 20px;
-    height: 20px;
+    width: 3vh;
+    height: 3vh;
 }
 
-.first-circle {
-    -webkit-animation: first-circle 5s linear infinite;
-    animation: first-circle 5s linear infinite;
-}
-
-@-webkit-keyframes first-circle {
-
-    0% {
-        transform: rotate(0deg) translate(-325px) rotate(0deg);  /* Start at top */
-    }
-    100% {
-        transform: rotate(360deg) translate(-325px) rotate(-360deg); /* Complete rotation */
-    }
-}
-
-.second-circle {
-    -webkit-animation: second-circle 5s linear infinite;
-    animation: second-circle 5s linear infinite;
-}
-
-@-webkit-keyframes second-circle {
-
-    0% {
-        transform: rotate(-180deg) translate(-325px) rotate(180deg);  /* Start at top */
-    }
-    100% {
-        transform: rotate(-540deg) translate(-325px) rotate(540deg); /* Complete rotation */
-    }
-}
-
-.third-circle {
-    -webkit-animation: third-circle 5s linear infinite;
-    animation: third-circle 5s linear infinite;
-}
-
-@-webkit-keyframes third-circle {
-
-    0% {
-        transform: rotate(180deg) translate(-250px) rotate(-180deg);  /* Start at bottom */
-    }
-    100% {
-        transform: rotate(540deg) translate(-250px) rotate(-540deg);  /* Complete rotation */
-    }
-}
-
-.fourth-circle {
-    -webkit-animation: fourth-circle 5s linear infinite;
-    animation: fourth-circle 5s linear infinite;
-}
-
-@-webkit-keyframes fourth-circle {
-
-    0% {
-        transform: rotate(-270deg) translate(-250px) rotate(270deg);  /* Start at bottom */
-    }
-    100% {
-        transform: rotate(-630deg) translate(-250px) rotate(630deg);  /* Complete rotation */
-    }
+.page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: min(100vh, 100vw);
+    margin: auto;
 }
 
 .scrolldown {
+    position: absolute;
     width: 120px;
     bottom: 0;
-    position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .introduction-container h1, .introduction-container h2 {
     font-weight: 400;
-}
-
-.page {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
 }
 
 .page.second {
@@ -212,7 +159,7 @@ section {
     display: flex;
     align-items: center;
     width: 50%;
-    margin: auto;
+    margin: 90px auto;
 }
 
 .straight-line-down {
@@ -221,11 +168,6 @@ section {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.content-container {
-    padding-top: 90px;
-    padding-bottom: 60px;
 }
 
 .title {
@@ -398,9 +340,9 @@ a {
     background-color: #898799;
 }
 
-.third-content-container {
+.third-page-container {
     width: 60%;
-    margin: auto;
+    margin: 90px auto;
 }
 
 .third-page-title {
@@ -535,9 +477,10 @@ a {
     background-color: white;
 }
 
-.fourth-content-container {
+.fourth-page-container {
+    display: flex;
     width: 60%;
-    margin: auto;
+    margin: 90px auto;
 }
 
 .skills-container-and-img {
@@ -587,8 +530,13 @@ video {
     background-color: #a5a2b6;
 }
 
-.fifth-content-container {
+.fifth-page-container {
+    display: flex;
     width: 60%;
+    margin: 90px auto;
+}
+
+.fifth-content-container {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -648,6 +596,6 @@ video {
 }
 
 .mini-logo {
-    padding-top: 50px;
+    padding-top: 30px;
     width: 100px;
 }
