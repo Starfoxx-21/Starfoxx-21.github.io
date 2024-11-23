@@ -42,6 +42,32 @@
         left: -18%;
     }
 
+    .satellite {
+        bottom: 300px;
+    }
+
+    .info-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-section div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .info-section .social-icons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .star-heading-right {
         width: 120px;
     }
