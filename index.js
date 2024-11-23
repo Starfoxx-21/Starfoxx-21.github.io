@@ -16,15 +16,19 @@ function scrollbarButtonClickHandler(event) {
 window.addEventListener("scroll", handleScroll);
 
 function handleScroll() {
+    const firstPageHeight = document.getElementById("first-page").offsetHeight;
+    const secondPageHeight = document.getElementById("second-page").offsetHeight;
+    const thirdPageHeight = document.getElementById("third-page").offsetHeight;
+    const fourthPageHeight = document.getElementById("fourth-page").offsetHeight;
     const scrollPosition = window.scrollY;
 
-    if (scrollPosition <= 910) {
+    if (scrollPosition <= firstPageHeight-1) {
         setActiveDot("page1");
-    } else if (scrollPosition <= 1830) {
+    } else if (scrollPosition <= firstPageHeight+secondPageHeight-1) {
         setActiveDot("page2");
-    } else if (scrollPosition <= 2750) {
+    } else if (scrollPosition <= firstPageHeight+secondPageHeight+thirdPageHeight+-1) {
         setActiveDot("page3");
-    } else if (scrollPosition <= 3670) {
+    } else if (scrollPosition <= firstPageHeight+secondPageHeight+thirdPageHeight+fourthPageHeight-1) {
         setActiveDot("page4");
     } else {
         setActiveDot("page5");
