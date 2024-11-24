@@ -273,7 +273,10 @@ section {
 }
 
 .info-section {
+    display: flex;
+    flex-direction: column;
     padding-top: 60px;
+    gap: 40px;
 }
 
 .titles {
@@ -281,6 +284,14 @@ section {
     color: #3e3e3f;
     font-weight: 700;
     padding-left: 0;
+}
+
+.info-inner-content {
+    color: #97989b;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.4;
 }
 
 a {
@@ -293,24 +304,20 @@ a {
     margin-right: 10px;
 }
 
-.page.second p {
-    padding-top: 18px;
+.about-me-text {
+    padding-top: 27px;
     padding-bottom: 18px;
     color: #97989b;
     font-size: 18px;
     font-weight: 500;
     text-align: justify;
     line-height: 1.4;
+    flex-basis: 100%;
 }
 
 .text-interests-container {
     display: flex;
     flex-wrap: wrap;
-}
-
-.text-interests-container p {
-    padding-top: 30px;
-    flex-basis: 100%;
 }
 
 .text-interests-container h2 {

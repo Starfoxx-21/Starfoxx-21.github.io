@@ -39,10 +39,6 @@
         font-size: 28px;
     }
 
-    .planet {
-        right: 60%;
-    }
-
     .stars {
         left: -18%;
     }
@@ -52,8 +48,6 @@
     }
 
     .info-section {
-        display: flex;
-        flex-direction: column;
         align-items: center;
     }
 
@@ -132,6 +126,10 @@
         font-size: 25px;
     }
 
+    .pic-container {
+        bottom: 10px;
+    }
+
     .satellite {
         display: none;
     }
@@ -161,9 +159,10 @@
     }
 
     .info-section {
-        padding-top: 50px;
+        padding-top: 30px;
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: flex-start;
         justify-content: space-evenly;
         gap: 5px;
     }
@@ -330,12 +329,37 @@
 
 @media only screen and (max-width: 600px) {
 
-    .page.second p {
-        font-size: 16px;
+    .pic-container {
+        bottom: 30px;
+        transform: scale(0.9);
     }
 
-    .pic-container {
-        transform: scale(0.9);
+    .planet {
+        left: -30px;
+    }
+
+    .stars {
+        left: -18%;
+    }
+
+    .satellite2 {
+        width: 100px;
+        right: -20px;
+        bottom: -20px;
+    }
+
+    .info-section {
+        padding-top: 5px;
+    }
+
+    .info-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .info-inner-content, .about-me-text {
+        font-size: 16px;
     }
 
     .social-icons img {
@@ -401,11 +425,7 @@
         padding-bottom: 15px;
     }
 
-    .page.second p {
-        font-size: 14px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
+
 
 }
 
