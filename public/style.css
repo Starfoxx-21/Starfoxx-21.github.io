@@ -257,6 +257,11 @@ section {
     transform: rotate(-5deg);
 }
 
+.satellite2 {
+    width: 0;
+    visibility: hidden;
+}
+
 .info-container {
     position: relative;
 }
@@ -326,6 +331,7 @@ a {
 .interests-container img {
     padding-top: 30px;
     width: 13%;
+    padding-bottom: 20px;
 }
 
 .straight-line-up {
@@ -438,12 +444,13 @@ a {
     font-size: 30px;
     color: white;
     margin-right: 10px;
+    padding-bottom: 10px;
 }
 
 .loading-dots {
     display: flex;
     gap: 5px;
-    margin-bottom: 6px;
+    margin-bottom: 17px;
 }
 
 .loading-dots span {
