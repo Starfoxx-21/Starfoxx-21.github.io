@@ -565,6 +565,7 @@ video {
     justify-content: center;
     gap: 30px;
     padding-top: 25px;
+    text-align: center;
 }
 
 .img-404 {
@@ -581,6 +582,7 @@ video {
 }
 
 .question-button-container button {
+    height: 30px;
     font-size: 15px;
     font-weight: 500;
     color: #222127;
