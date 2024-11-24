@@ -383,10 +383,15 @@
 
     .second-page-container, .third-page-container, .fourth-page-container, .fifth-page-container {
         width: 95%;
+        margin: 70px auto;
     }
 
-    .second-page-container, .third-page-container, .fourth-page-container, .fifth-page-container {
-        margin: 70px auto;
+    .second-page-container {
+        justify-content: center;
+    }
+
+    .second-content-container {
+        max-width: 95%;
     }
     
     .straight-line-down {
@@ -405,8 +410,20 @@
         font-size: 18px;
     }
 
+    .pic-info-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .pic-container {
-        transform: scale(0.8);
+        width: 90%;
+        transform: scale(0.6) translateX(-82%);
+        left: 50%;
+        max-height: 280px;
+    }
+
+    .info-container {
+        text-align: center;
     }
 
     .info-section {
@@ -417,11 +434,7 @@
     .interests-container {
         justify-content: space-evenly;
         gap: 5px;
-    }
-
-    .interests-container img {
         padding-top: 20px;
-        width: 13%;
         padding-bottom: 15px;
     }
 
