@@ -177,9 +177,19 @@
         justify-content: center;
     }
 
+    .social-div {
+        flex-basis: 100%;
+    }
+
     .social-icons img {
         width: 35px;
+        margin-top: 9px;
+        margin-bottom: 4px;
         margin-right: 0px;
+    }
+
+    .about-me-text {
+        padding-top: 5px;
     }
 
     .interests-container {
@@ -498,7 +508,6 @@
     }
 
     .about-me-text {
-        padding-top: 0px;
         padding-bottom: 10px;
     }
 
