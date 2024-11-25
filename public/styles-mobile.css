@@ -7,6 +7,11 @@
     .exp-timeline-container {
         gap: 56px;
     }
+
+    video {
+        max-height: 320px;
+        max-width: 320px;
+    }
 }
 
 @media only screen and (max-width: 1288px) {
@@ -242,8 +247,8 @@
     }
 
     video {
-        max-height: 280px;
-        max-width: 280px;
+        max-height: 300px;
+        max-width: 300px;
     }
 
     .img-404 {
@@ -393,6 +398,63 @@
         width: 0;
     }
 
+    .fourth-content-container .titles {
+        font-size: 17px;
+    }
+
+    .skills-container-and-img {
+        padding-top: 20px;
+    }
+
+    .title-skill.title-skill-mobile {
+        display: inline;
+    }
+
+    .skills-container.two {
+        display: none;
+    }
+
+    .skills-container {
+        gap: 20px;
+    }
+
+    .list-style {
+        font-size: 15px;
+        z-index: 2;
+    }
+
+    video {
+        display: none;
+    }
+
+    .video-mobile {
+        position: absolute;
+        display: inline;
+        margin: 0;
+        max-height: 150px;
+        max-width: 150px;
+        height: 100%;
+        width: 100%;
+        right: 20%;
+    }
+
+    .git-img {
+        width: 0;
+        visibility: hidden;
+    }
+    
+    .git-img2 {
+        position: absolute;
+        display: inline;
+        visibility: visible;
+        opacity: 30%;
+        height: 600px;
+        width: 160px;
+        object-fit: cover;
+        z-index: 1;
+        right: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -441,11 +503,15 @@
         flex-direction: column;
     }
 
+    .satellite2 {
+        bottom: -90px;
+    }
+
     .pic-container {
         width: 90%;
-        transform: scale(0.6) translateX(-82%);
+        transform: scale(0.7) translateX(-70%) translateY(-10%);
         left: 50%;
-        max-height: 280px;
+        max-height: 260px;
     }
 
     .info-container {
@@ -462,6 +528,39 @@
         gap: 5px;
         padding-top: 20px;
         padding-bottom: 15px;
+    }
+
+    .date-timeline-container {
+        gap: 63px;
+    }
+
+    .date-timeline {
+        border: 5px solid white;
+        font-size: 14px;
+    }
+
+    .skill-tree-image {
+        height: 480px;
+        width: 65px;
+    }
+
+    .exp-title {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .exp-details {
+        font-size: 11px;
+        padding-top: 6px;
+    }
+
+    .exp-timeline-container {
+        gap: 31px;
+        padding-bottom: 35px;
+    }
+
+    .web-dev-loading-msg {
+        font-size: 18px;
     }
 
     .img-404 {
@@ -483,7 +582,11 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
 
+    /* video {
+        max-height: 280px;
+        max-width: 280px;
+    } */
 
 }

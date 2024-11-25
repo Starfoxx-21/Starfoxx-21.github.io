@@ -493,6 +493,7 @@ a {
 
 .fourth-page-container {
     display: flex;
+    justify-content: center;
     width: 60%;
     margin: 90px auto;
 }
@@ -508,6 +509,10 @@ a {
     flex-direction: column;
     width: fit-content;
     gap: 40px;
+}
+
+.title-skill.title-skill-mobile {
+    display: none;
 }
 
 .title-skill {
@@ -532,8 +537,17 @@ a {
     object-fit: cover;
 }
 
+.git-img2 {
+    width: 0;
+    visibility: hidden;
+}
+
+.video-mobile {
+    display: none;
+}
+
 video {
-    margin: auto;
+    margin: -10px 80px 0px auto;
     max-height: 400px;
     max-width: 400px;
     height: 100%;
