@@ -498,9 +498,14 @@ a {
     margin: 90px auto;
 }
 
+.fourth-content-container {
+    width: 100%;
+}
+
 .skills-container-and-img {
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 30px;
 }
 

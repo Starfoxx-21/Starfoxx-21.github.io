@@ -400,6 +400,7 @@
 
     .fourth-content-container .titles {
         font-size: 17px;
+        z-index: 3;
     }
 
     .skills-container-and-img {
@@ -420,7 +421,7 @@
 
     .list-style {
         font-size: 15px;
-        z-index: 2;
+        z-index: 3;
     }
 
     video {
@@ -435,7 +436,10 @@
         max-width: 150px;
         height: 100%;
         width: 100%;
-        right: 20%;
+        /* right: 18%; */
+        right: 20vw;
+        /* right: 10vh; */
+        z-index: 1;
     }
 
     .git-img {
@@ -449,10 +453,10 @@
         visibility: visible;
         opacity: 30%;
         height: 600px;
-        width: 160px;
+        width: 100px;
         object-fit: cover;
         z-index: 1;
-        right: 20px;
+        right: 0;
     }
 
 }
