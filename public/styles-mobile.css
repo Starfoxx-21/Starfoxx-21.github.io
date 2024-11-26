@@ -267,6 +267,10 @@
         width: 90%;
     }
 
+    .scrolldown {
+        display: none;
+    }
+
     .first-page .logo {
         width: min(20vh, 20vw);
     }
@@ -479,7 +483,7 @@
         max-width: 150px;
         height: 100%;
         width: 100%;
-        right: 20vw;
+        right: 15vw;
         z-index: 1;
     }
 
@@ -765,7 +769,7 @@
 
     .exp-details-container {
         padding: 15px 0px 15px 15px;
-        margin-left: 40px;
+        margin-left: 55px;
     }
 
     .date-timeline-wrapper {
@@ -794,6 +798,10 @@
         height: 3px;
     }
 
+    .fourth-content-container {
+        max-height: 570px;
+    }
+
     .fourth-content-container .titles {
         font-size: 14px;
     }
@@ -814,7 +822,7 @@
     }
 
     .git-img2 {
-        height: 530px;
+        height: 500px;
     }
 
     .jokes-container {
