@@ -267,10 +267,6 @@
         width: 90%;
     }
 
-    .scrolldown {
-        display: none;
-    }
-
     .first-page .logo {
         width: min(20vh, 20vw);
     }
@@ -840,5 +836,12 @@
     .mini-logo {
         padding-top: 5px;
         width: 70px;
+    }
+}
+
+@media screen and (max-height: 950px) {
+    
+    .scrolldown {
+        display: none;
     }
 }
