@@ -73,19 +73,16 @@ section {
 }
 
 .first-page .logo {
-    /* width: min(18vh, 18vw); */
-    width: min(18vw);
+    width: min(18vh, 18vw);
 }
 
 .introduction-container h1 {
     margin-top: -3vh;
-    /* font-size: min(8vh, 8vw); */
-    font-size: min(8vw);
+    font-size: min(8vh, 8vw);
 }
 
 .introduction-container h2 {
-    /* font-size: min(2.5vh, 2.5vw); */
-    font-size: min(2.5vw);
+    font-size: min(2.5vh, 2.5vw);
 }
 
 .first-page-circle {

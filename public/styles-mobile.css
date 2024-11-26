@@ -268,19 +268,17 @@
     }
 
     .first-page .logo {
-        /* width: min(20vh, 20vw); */
-        width: min(20vw);
+        width: min(20vh, 20vw);
+        
     }
     
     .introduction-container h1 {
         margin-top: -3vh;
-        /* font-size: min(10vh, 10vw); */
-        font-size: min(10vw);
+        font-size: min(10vh, 10vw);
     }
     
     .introduction-container h2 {
-        /* font-size: min(2.7vh, 2.7vw); */
-        font-size: min(2.7vw);
+        font-size: min(2.7vh, 2.7vw);
     }
 
     .interests-container img {
@@ -513,19 +511,16 @@
     }
 
     .first-page .logo {
-        /* width: min(20vh, 22vw); */
-        width: min(22vw);
+        width: min(20vh, 22vw);
     }
     
     .introduction-container h1 {
         margin-top: -2vh;
-        /* font-size: min(11vh, 11vw); */
-        font-size: min(11vw);
+        font-size: min(11vh, 11vw);
     }
     
     .introduction-container h2 {
-        /* font-size: min(2.9vh, 2.9vw); */
-        font-size: min(2.9vw);
+        font-size: min(2.9vh, 2.9vw);
     }
 
     .second-page-container {
