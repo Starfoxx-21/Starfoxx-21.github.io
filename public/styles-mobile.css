@@ -657,10 +657,13 @@
         font-size: 15px;
     }
 
+    .loading-dots {
+        margin-bottom: 21px;
+    }
+
     .loading-dots span {
-        width: 5px;
-        height: 5px;
-        margin-bottom: -4px;
+        width: 4px;
+        height: 4px;
     }
 }
 
@@ -777,37 +780,41 @@
         padding-top: 16px;
     }
 
+    .web-dev-loading-msg {
+        font-size: 13px;
+    }
+
     .loading-dots {
+        gap: 4px;
+        margin-bottom: 21px;
+    }
+
+    .loading-dots span {
         width: 3px;
         height: 3px;
-        margin-bottom: -4px;
-        gap: 2px;
     }
 
     .fourth-content-container .titles {
-        font-size: 15px;
+        font-size: 14px;
     }
-
-    .skills-container-and-img {
+    
+    .list-style {
         padding-top: 5px;
-        margin-bottom: -22px;
+        font-size: 12px;
     }
 
     .skills-container {
         gap: 16px;
     }
 
-    .list-style {
-        padding-top: 5px;
-        font-size: 14px;
-    }
-
     .video-mobile {
-        right: 9vw;
+        max-height: 130px;
+        max-width: 130px;
+        right: 12vw;
     }
 
     .git-img2 {
-        height: 570px;
+        height: 530px;
     }
 
     .jokes-container {
