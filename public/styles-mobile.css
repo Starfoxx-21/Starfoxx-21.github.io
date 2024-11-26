@@ -28,7 +28,6 @@
     .second-page-container, .third-page-container, .fourth-page-container, .fifth-page-container {
         width: 70%;
     }
-
 }
 
 @media only screen and (max-width: 1024px) {
@@ -187,6 +186,11 @@
         gap: 25px;
     }
 
+    .interests-container img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     .third-page-title {
         gap: 10px;
     }
@@ -255,7 +259,6 @@
     .answer {
         font-size: 18px;
     }
-
 }
 
 @media only screen and (max-width: 699px) {
@@ -275,6 +278,10 @@
     
     .introduction-container h2 {
         font-size: min(2.7vh, 2.7vw);
+    }
+
+    .interests-container img {
+        width: 15%;
     }
 
     .third-page-title {
@@ -349,6 +356,14 @@
         align-items: center;
     }
 
+    .question-button-container h2 {
+        font-size: 17px;
+    }
+
+    .question-button-container {
+        gap: 14px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -390,6 +405,14 @@
         width: 30px;
     }
 
+    .interests-container {
+        gap: 10px;
+    }
+
+    .interests-container img {
+        width: 17%;
+    }
+
     .star-heading-right {
         visibility: hidden;
         width: 0;
@@ -406,6 +429,10 @@
 
     .timeline-entry {
         gap: 0;
+    }
+
+    .exp-details-container {
+        padding: 15px 0px 15px 15px;
     }
 
     .date-timeline {
@@ -555,8 +582,8 @@
     .interests-container {
         justify-content: space-evenly;
         gap: 5px;
-        padding-top: 20px;
-        padding-bottom: 15px;
+        padding-top: 0px;
+        padding-bottom: 5px;
     }
 
     .timeline-icon img {
@@ -600,8 +627,8 @@
     }
 
     .question-button-container button {
-        height: 25px;
-        padding: 5px 17px;
+        height: 22px;
+        padding: 2px 13px;
         font-size: 13px;
     }
 
@@ -635,7 +662,6 @@
         height: 5px;
         margin-bottom: -4px;
     }
-
 }
 
 @media only screen and (max-width: 400px) {
@@ -643,6 +669,7 @@
     .second-page-container, .third-page-container, .fourth-page-container, .fifth-page-container {
         margin: 60px auto;
     }
+
     .straight-line-down {
         width: 60px;
     }
@@ -658,6 +685,7 @@
     }
 
     .exp-details-container {
+        padding: 15px 0px 15px 0px;
         margin-left: 60px;
     }
     
@@ -670,5 +698,132 @@
         padding-top: 2px;
     }
 
+    .img-404 {
+        width: 240px;
+    }
 
+    .question-button-container h2 {
+        font-size: 15px;
+    }
+
+    .answer {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .second-page-container, .third-page-container, .fourth-page-container, .fifth-page-container {
+        margin: 50px auto;
+    }
+    
+    .straight-line-down {
+        width: 50px;
+    }
+
+    .straight-line-up {
+        width: 50px;
+    }
+
+    .titles {
+        font-size: 15px;
+    }
+
+    .info-inner-content, .about-me-text {
+        font-size: 12px;
+    }
+
+    .pic-container {
+        width: 90%;
+        transform: scale(0.6) translateX(-82%) translateY(-20%);
+        left: 50%;
+        max-height: 215px;
+    }
+
+    .satellite2 {
+        bottom: -150px;
+        right: 0px;
+    }
+
+    .social-icons img {
+        width: 26px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .third-content-container .title {
+        font-size: 18px;
+        margin-right: 7px;
+    }
+
+    .skill-tree-container {
+        gap: 5px;
+    }
+
+    .exp-details-container {
+        padding: 15px 0px 15px 15px;
+        margin-left: 40px;
+    }
+
+    .date-timeline-wrapper {
+        justify-content: flex-start;
+    }
+
+    .date-timeline {
+        min-width: 105px;
+    }
+
+    .web-dev-container {
+        padding-top: 16px;
+    }
+
+    .loading-dots {
+        width: 3px;
+        height: 3px;
+        margin-bottom: -4px;
+        gap: 2px;
+    }
+
+    .fourth-content-container .titles {
+        font-size: 15px;
+    }
+
+    .skills-container-and-img {
+        padding-top: 5px;
+        margin-bottom: -22px;
+    }
+
+    .skills-container {
+        gap: 16px;
+    }
+
+    .list-style {
+        padding-top: 5px;
+        font-size: 14px;
+    }
+
+    .video-mobile {
+        right: 9vw;
+    }
+
+    .git-img2 {
+        height: 570px;
+    }
+
+    .jokes-container {
+        gap: 18px;
+    }
+
+    .question-button-container h2 {
+        font-size: 13px;
+    }
+
+    .answer {
+        font-size: 11px;
+    }
+
+    .mini-logo {
+        padding-top: 5px;
+        width: 70px;
+    }
 }
