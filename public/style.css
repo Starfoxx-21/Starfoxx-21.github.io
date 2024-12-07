@@ -145,6 +145,7 @@ section {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 2;
 }
 
 .introduction-container h1, .introduction-container h2 {
