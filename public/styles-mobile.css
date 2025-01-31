@@ -587,6 +587,10 @@
         padding-bottom: 5px;
     }
 
+    .skill-tree-container {
+        margin-bottom: 20px;
+    }
+
     .timeline-icon img {
         width: 45px;
         height: 45px;
