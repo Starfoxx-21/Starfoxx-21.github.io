@@ -1,343 +1,545 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="./public/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
-    <link rel="manifest" href="./public/site.webmanifest">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./public/style.css">
-    <link rel="stylesheet" href="./public/styles-mobile.css">
-    <title>Starfox</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/webp" href="./public/favicon.ico" />
+    <link rel="manifest" href="./public/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/style.css" />
+    <link rel="stylesheet" href="./public/styles-mobile.css" />
+    <meta
+      name="description"
+      content="Hi, I'm Christianna, a frontend web developer. Passionate about building responsive and interactive web applications."
+    />
+    <meta
+      name="keywords"
+      content="frontend developer, web developer, JavaScript, web design, responsive websites"
+    />
+    <meta property="og:title" content="Starfox | Frontend Web Developer" />
+    <meta
+      property="og:description"
+      content="Hi, I'm Christianna, a self-taught frontend developer specializing in modern web technologies."
+    />
+    <meta
+      property="og:image"
+      content="https://starfoxx-21.github.io/public/images/profile-picture.webp"
+    />
+    <meta property="og:url" content="https://starfoxx-21.github.io/" />
+    <meta property="og:type" content="website" />
+    <title>Starfox | Web Dev</title>
+  </head>
+  <body>
     <div class="scrollbar">
-        <a href="#first-page"><span class="dot dot-white active-page" id="page1"></span></a>
-        <a href="#second-page"><span class="dot dot-white" id="page2"></span></a>
-        <a href="#third-page"><span class="dot dot-white" id="page3"></span></a>
-        <a href="#fourth-page"><span class="dot dot-white" id="page4"></span></a>
-        <a href="#fifth-page"><span class="dot dot-white" id="page5"></span></a>
+      <a href="#first-page"
+        ><span class="dot dot-white active-page" id="page1"></span
+      ></a>
+      <a href="#second-page"><span class="dot dot-white" id="page2"></span></a>
+      <a href="#third-page"><span class="dot dot-white" id="page3"></span></a>
+      <a href="#fourth-page"><span class="dot dot-white" id="page4"></span></a>
+      <a href="#fifth-page"><span class="dot dot-white" id="page5"></span></a>
     </div>
 
-    <section class="first-page" id="first-page"> <!-- First page START -->
-        <div class="first-page-container">
-            <div class="outer first-page-circle">
-                <div class="big ball first-ball"></div>
-                <div class="small ball second-ball"></div>
-                <div class="inner first-page-circle">
-                    <div class="big ball third-ball"></div>
-                    <div class="small ball fourth-ball"></div>
-                </div>
+    <div id="custom-cursor"></div>
+
+    <section class="first-page" id="first-page">
+      <!-- First page START -->
+      <video autoplay loop muted class="galaxy-bg">
+        <source src="./public/images/galaxy.mp4" type="video/mp4" />
+      </video>
+      <div class="first-page-container">
+        <div class="outer first-page-circle">
+          <div class="big ball first-ball"></div>
+          <div class="small ball second-ball"></div>
+          <div class="inner first-page-circle">
+            <div class="big ball third-ball"></div>
+            <div class="small ball fourth-ball"></div>
+          </div>
+        </div>
+        <div class="introduction-container">
+          <img
+            class="logo"
+            src="./public/images/starfox.webp"
+            alt="starfox logo"
+          />
+          <h1>S t a r f o x</h1>
+          <h2>- ASPIRING WEB DEVELOPER -</h2>
+        </div>
+        <img
+          class="scrolldown"
+          src="./public/images/scrolldown-icon.webp"
+          alt="scrolldown icon"
+        />
+      </div>
+    </section>
+    <!-- First page END -->
+
+    <section class="page second" id="second-page">
+      <!-- Second page START -->
+      <div class="second-page-container">
+        <img
+          class="straight-line-down"
+          src="./public/images/black-arrow-down.webp"
+          alt="purple arrow down"
+        />
+        <div class="second-content-container">
+          <!-- Content Container START -->
+          <h2 class="title black">ABOUT ME</h2>
+          <div class="pic-info-container">
+            <!-- Pic & Info Container START -->
+            <div class="pic-container">
+              <!-- Pic Container START -->
+              <div class="violet-circle"></div>
+              <div class="white-square"></div>
+              <div class="black-circle"></div>
+              <div class="bl-white-square"></div>
+              <img
+                class="me"
+                src="./public/images/profile-picture.webp"
+                alt="anime me profile picture"
+              />
+              <img
+                class="planet"
+                src="./public/images/planet.webp"
+                alt="planet"
+                loading="lazy"
+              />
+              <img
+                class="stars"
+                src="./public/images/stars.webp"
+                alt="stars"
+                loading="lazy"
+              />
+              <img
+                class="satellite2"
+                src="./public/images/satellite.webp"
+                alt="satellite"
+                loading="lazy"
+              />
             </div>
-            <div class="introduction-container">
-                <img class="logo" src="./public/images/starfox.png" alt="fox-logo">
-                <h1>S t a r f o x</h1>
-                <h2>- ASPIRING WEB DEVELOPER -</h2>
+            <div class="info-container">
+              <!-- Info Container START -->
+              <img
+                class="satellite"
+                src="./public/images/satellite.webp"
+                alt="satellite"
+                loading="lazy"
+              />
+              <div class="info-section">
+                <!-- Info Section START -->
+                <div class="name-div">
+                  <h3 class="titles">NAME</h3>
+                  <p class="info-inner-content">Christianna Anastasiadou</p>
+                </div>
+                <div class="location-div">
+                  <h3 class="titles">LOCATION</h3>
+                  <p class="info-inner-content">Athens, Greece</p>
+                </div>
+                <div class="social-div">
+                  <h3 class="titles">SOCIAL</h3>
+                  <div class="social-icons">
+                    <a
+                      class="info-inner-content"
+                      href="https://github.com/Starfoxx-21"
+                    >
+                      <img
+                        src="./public/images/github-fill-svgrepo-com.svg"
+                        alt="github icon"
+                        width="40px"
+                      />
+                    </a>
+                    <a
+                      class="info-inner-content"
+                      href="https://www.linkedin.com/in/christianna-anastasiadou/"
+                    >
+                      <img
+                        src="./public/images/linkedin-round-svgrepo-com.svg"
+                        alt="linkedin icon"
+                        width="40px"
+                      />
+                    </a>
+                    <a
+                      class="info-inner-content"
+                      href="mailto: c.anastasiadou@hotmail.com"
+                    >
+                      <img
+                        src="./public/images/email-ui-mail-svgrepo-com.svg"
+                        alt="email icon"
+                        width="40px"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Info Section END -->
             </div>
-            <img class="scrolldown" src="./public/images/scrolldown-icon.png" alt="scrolldown-icon">
-        </div>
-    </section> <!-- First page END -->
+            <!-- Info Container END -->
+          </div>
+          <!-- Pic & Info Container END -->
+          <div class="text-interests-container">
+            <!-- Text & Interests Container START -->
+            <p class="about-me-text">
+              Hello, I’m Christianna, a self-taught developer. Since childhood,
+              I've been drawn to computers— from playing video games to setting
+              up my first computer. After having a career in accounting, I am
+              now on a new journey as a developer, constantly expanding my
+              skills in programming. Oh, and I am also a bit of an artist!
+            </p>
+            <h3 class="titles">INTERESTS</h3>
 
-    <section class="page second" id="second-page"> <!-- Second page START -->
-        <div class="second-page-container">
-            <img class="straight-line-down" src="./public/images/black-arrow-down.png" alt="purple-arrow-down">
-            <div class="second-content-container"> <!-- Content Container START -->
-                <h2 class="title black">ABOUT ME</h2>
-                <div class="pic-info-container"> <!-- Pic & Info Container START -->
-                    <div class="pic-container"> <!-- Pic Container START -->
-                        <div class="violet-circle"></div>
-                        <div class="white-square"></div>
-                        <div class="black-circle"></div>
-                        <div class="bl-white-square"></div>
-                        <img class="me" src="./public/images/me.jpg" alt="anime-girl">
-                        <img class="planet" src="./public/images/planet.png" alt="planet">
-                        <img class="stars" src="./public/images/stars.png" alt="stars">  
-                        <img class="satellite2" src="./public/images/satellite.png" alt="satellite">
-                    </div>
-                    <div class="info-container"> <!-- Info Container START -->
-                        <img class="satellite" src="./public/images/satellite.png" alt="satellite">
-                        <div class="info-section"> <!-- Info Section START -->
-                            <div class="name-div"> 
-                                <h2 class="titles">NAME</h2>
-                                <p class="info-inner-content">Christianna Anastasiadou</p>
-                            </div>
-                            <div class="location-div">
-                                <h2 class="titles">LOCATION</h2>
-                                <p class="info-inner-content">Athens, Greece</p>
-                            </div>
-                            <div class="social-div">
-                                <h2 class="titles">SOCIAL</h2>
-                                <div class="social-icons">
-                                    <a class="info-inner-content" href="https://github.com/Starfoxx-21">
-                                        <img src="./public/images/github-fill-svgrepo-com.svg" alt="github-icon" width="40px">
-                                    </a>
-                                    <a class="info-inner-content" href="https://www.linkedin.com/in/christianna-anastasiadou/">
-                                        <img src="./public/images/linkedin-round-svgrepo-com.svg" alt="linkedin-icon" width="40px">
-                                    </a>
-                                    <a class="info-inner-content" href="mailto: c.anastasiadou@hotmail.com">
-                                        <img src="./public/images/email-ui-mail-svgrepo-com.svg" alt="email-icon" width="40px">
-                                    </a>
-                                </div>
-                            </div>
-                        </div> <!-- Info Section END -->
-                    </div> <!-- Info Container END -->
-                </div> <!-- Pic & Info Container END -->
-                <div class="text-interests-container"> <!-- Text & Interests Container START -->
-                    <p class="about-me-text">
-                        Hello, I’m Christianna, a self-taught developer. Since childhood, I've been drawn to computers— 
-                        from playing video games to setting up my first computer. After having a career in accounting, 
-                        I am now on a new journey as a developer, constantly expanding my skills in programming. 
-                        Oh, and I am also a bit of an artist!
-                    </p>
-                    <h2 class="titles">INTERESTS</h2>
-        
-                    <div class="interests-container"> <!-- Interests's images START -->
-                        <img src="./public/images/console.png" alt="console">
-                        <img src="./public/images/plane.png" alt="plane">
-                        <img src="./public/images/art-supplies.png" alt="art">
-                        <img src="./public/images/paw.png" alt="paw-icon animals">
-                        <img src="./public/images/food.png" alt="food">
-                    </div> <!-- Interest's images END -->
-                </div> <!-- Text & Interests Container END -->
-            </div> <!-- Content Container END -->
-            <img class="straight-line-up" src="./public/images/black-arrow-up.png" alt="purple-arrow-up">
+            <div class="interests-container">
+              <!-- Interests's images START -->
+              <img src="./public/images/console.webp" alt="console" />
+              <img src="./public/images/plane.webp" alt="plane" />
+              <img src="./public/images/art-supplies.webp" alt="art" />
+              <img src="./public/images/paw.webp" alt="paw icon animals" />
+              <img src="./public/images/food.webp" alt="food" />
+            </div>
+            <!-- Interest's images END -->
+          </div>
+          <!-- Text & Interests Container END -->
         </div>
-    </section> <!-- Second page END -->
+        <!-- Content Container END -->
+        <img
+          class="straight-line-up"
+          src="./public/images/black-arrow-up.webp"
+          alt="purple arrow up"
+        />
+      </div>
+    </section>
+    <!-- Second page END -->
 
-    <section class="page third" id="third-page"> <!-- Third page START -->
-        <div class="third-page-container"> 
-            <img class="straight-line-down" src="./public/images/white-arrow-down.png" alt="purple-arrow-down">
-            <div class="third-content-container"> <!-- Content Container START -->
-                <div class="third-page-title">
-                    <img class="star-heading-left" src="./public/images/star-heading-left.png" alt="stars">
-                    <h2 class="title white">EDUCATION ~ EXPERIENCE</h2>
-                    <img class="star-heading-right" src="./public/images/star-heading-right.png" alt="stars">
-                </div>
-                <div class="skill-tree-container">
-                    <div class="center-line"></div>
-                    <div class="timeline-entry">
-                        <div class="date-timeline-wrapper">
-                            <span class="date-timeline">Sep 2013 – Sep 2016</span>
-                        </div>
-                        <div class="timeline-icon">
-                            <img src="./public/images/education-icon.png" alt="education-icon">
-                        </div>
-                        <div class="exp-details-container">
-                            <h2 class="exp-title">HIGH SCHOOL DIPLOMA</h2>
-                            <p class="exp-details">1st Technical High School of Petroupoli – Accounting/Economics</p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <div class="date-timeline-wrapper">
-                            <span class="date-timeline">Sep 2016 – Sep 2020</span>
-                        </div>
-                        <div class="timeline-icon">
-                            <img src="./public/images/education-icon.png" alt="education-icon">
-                        </div>
-                        <div class="exp-details-container">
-                            <h2 class="exp-title">Bachelor of Business Administration</h2>
-                            <p class="exp-details">University of West Attica – Degree in Accounting and Finance</p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <div class="date-timeline-wrapper">
-                            <span class="date-timeline">Jan 2021 – Aug 2022</span>
-                        </div>
-                        <div class="timeline-icon">
-                            <img src="./public/images/experience-icon.png" alt="experience-icon">
-                        </div>
-                        <div class="exp-details-container">
-                            <h2 class="exp-title">SafeTaxPlan</h2>
-                            <p class="exp-details">Assistant Accountant, Athens, Greece</p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <div class="date-timeline-wrapper">
-                            <span class="date-timeline">Sep 2022 – May 2024</span>
-                        </div>
-                        <div class="timeline-icon">
-                            <img src="./public/images/experience-icon.png" alt="experience-icon">
-                        </div>
-                        <div class="exp-details-container">
-                            <h2 class="exp-title">CG Elenxis IKE</h2>
-                            <p class="exp-details">Junior Accountant, Athens, Greece</p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <div class="date-timeline-wrapper">
-                            <span class="date-timeline">Jun 2024 – Nov 2024</span>
-                        </div>
-                        <div class="timeline-icon">
-                            <img src="./public/images/experience-icon.png" alt="experience-icon">
-                        </div>
-                        <div class="exp-details-container">
-                            <h2 class="exp-title">Campeón Gaming</h2>
-                            <p class="exp-details">Junior Accountant Executive, Athens, Greece</p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <div class="date-timeline-wrapper">
-                            <span class="date-timeline">Jan 2025 – Present</span>
-                        </div>
-                        <div class="timeline-icon">
-                            <img src="./public/images/experience-icon.png" alt="experience-icon">
-                        </div>
-                        <div class="exp-details-container">
-                            <h2 class="exp-title">Webeleven</h2>
-                            <p class="exp-details">Junior Frontend Web Developer, Athens, Greece</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="web-dev-container">
-                    <h2 class="web-dev-loading-msg">Web Developer Experience - Loading</h2>
-                    <div class="loading-dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div> -->
-                </div> <!-- Content Container END -->
-            <img class="straight-line-up" src="./public/images/white-arrow-up.png" alt="purple-arrow-up">
+    <section class="page third" id="third-page">
+      <!-- Third page START -->
+      <div class="third-page-container">
+        <img
+          class="straight-line-down"
+          src="./public/images/white-arrow-down.webp"
+          alt="purple arrow down"
+        />
+        <div class="third-content-container">
+          <!-- Content Container START -->
+          <div class="third-page-title">
+            <img
+              class="star-heading-left"
+              src="./public/images/star-heading-left.webp"
+              alt="stars"
+              loading="lazy"
+            />
+            <h2 class="title white">EDUCATION ~ EXPERIENCE</h2>
+            <img
+              class="star-heading-right"
+              src="./public/images/star-heading-right.webp"
+              alt="stars"
+              loading="lazy"
+            />
+          </div>
+          <div class="skill-tree-container">
+            <div class="center-line"></div>
+            <div class="timeline-entry">
+              <div class="date-timeline-wrapper">
+                <span class="date-timeline">Sep 2013 – Sep 2016</span>
+              </div>
+              <div class="timeline-icon">
+                <img
+                  src="./public/images/education-icon.webp"
+                  alt="education icon"
+                />
+              </div>
+              <div class="exp-details-container">
+                <p class="exp-title">HIGH SCHOOL DIPLOMA</p>
+                <p class="exp-details">
+                  1st Technical High School of Petroupoli – Accounting/Economics
+                </p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="date-timeline-wrapper">
+                <span class="date-timeline">Sep 2016 – Sep 2020</span>
+              </div>
+              <div class="timeline-icon">
+                <img
+                  src="./public/images/education-icon.webp"
+                  alt="education icon"
+                />
+              </div>
+              <div class="exp-details-container">
+                <p class="exp-title">Bachelor of Business Administration</p>
+                <p class="exp-details">
+                  University of West Attica – Degree in Accounting and Finance
+                </p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="date-timeline-wrapper">
+                <span class="date-timeline">Jan 2021 – Aug 2022</span>
+              </div>
+              <div class="timeline-icon">
+                <img
+                  src="./public/images/experience-icon.webp"
+                  alt="experience icon"
+                />
+              </div>
+              <div class="exp-details-container">
+                <p class="exp-title">SafeTaxPlan</p>
+                <p class="exp-details">Assistant Accountant, Athens, Greece</p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="date-timeline-wrapper">
+                <span class="date-timeline">Sep 2022 – May 2024</span>
+              </div>
+              <div class="timeline-icon">
+                <img
+                  src="./public/images/experience-icon.webp"
+                  alt="experience icon"
+                />
+              </div>
+              <div class="exp-details-container">
+                <p class="exp-title">CG Elenxis IKE</p>
+                <p class="exp-details">Junior Accountant, Athens, Greece</p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="date-timeline-wrapper">
+                <span class="date-timeline">Jun 2024 – Nov 2024</span>
+              </div>
+              <div class="timeline-icon">
+                <img
+                  src="./public/images/experience-icon.webp"
+                  alt="experience icon"
+                />
+              </div>
+              <div class="exp-details-container">
+                <p class="exp-title">Campeón Gaming</p>
+                <p class="exp-details">
+                  Junior Accountant Executive, Athens, Greece
+                </p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="date-timeline-wrapper">
+                <span class="date-timeline">Jan 2025 – Present</span>
+              </div>
+              <div class="timeline-icon">
+                <img
+                  src="./public/images/experience-icon.webp"
+                  alt="experience icon"
+                />
+              </div>
+              <div class="exp-details-container">
+                <p class="exp-title">Webeleven</p>
+                <p class="exp-details">
+                  Junior Frontend Web Developer, Athens, Greece
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section> <!-- Third page END -->
+        <!-- Content Container END -->
+        <img
+          class="straight-line-up"
+          src="./public/images/white-arrow-up.webp"
+          alt="purple arrow up"
+        />
+      </div>
+    </section>
+    <!-- Third page END -->
 
-    <section class="page fourth" id="fourth-page"> <!-- Fourth page START -->
-        <div class="fourth-page-container"> 
-            <img class="straight-line-down" src="./public/images/black-arrow-down.png" alt="purple-arrow-down">
-            <div class="fourth-content-container"> <!-- Content Container START -->
-                <h2 class="title grey">SKILLS</h2>
-                <div class="skills-container-and-img">
-                    <div class="skills-container"> <!-- Skills Container START -->
-                        <div class="title-skill">
-                            <h2 class="titles">Web Technologies</h2>
-                            <ul id="web-technol-list" class="list-style">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Javascript</li>
-                                <li>Typescript</li>
-                                <li>Svelte</li>
-                                <li>Astro</li>
-                            </ul>
-                        </div>
-                        <div class="title-skill">
-                            <h2 class="titles">Version Control</h2>
-                            <ul id="web-technol-list" class="list-style">
-                                <li>Git/ Github</li>
-                            </ul>
-                        </div>
-                        <div class="title-skill">
-                            <h2 class="titles">Basic Back-End Knowledge </h2>
-                            <ul id="web-technol-list" class="list-style">
-                                <li>Node.js</li>
-                                <li>Express.js</li>
-                            </ul>
-                        </div>
-                        <div class="title-skill title-skill-mobile">
-                            <h2 class="titles">Responsive and Cross-Browser Compatibility</h2>
-                            <ul id="web-technol-list" class="list-style">
-                                <li>Media Queries</li>
-                                <li>CSS Frameworks: (Bootstrap, Tailwind CSS)</li>
-                            </ul>
-                        </div>
-                        <div class="title-skill title-skill-mobile">
-                            <h2 class="titles">Package Management and Build Tools</h2>
-                            <ul id="web-technol-list" class="list-style">
-                                <li>npm</li>
-                            </ul>
-                        </div>
-                        <div class="title-skill">
-                            <h2 class="titles">Soft Skills</h2>
-                            <ul id="web-technol-list" class="list-style">
-                                <li>Communication</li>
-                                <li>Teamwork</li>
-                                <li>Attention to Detail</li>
-                                <li>Adaptability</li>
-                                <li>Time Management</li>
-                                <li>Problem Solving</li>
-                            </ul>
-                        </div>
-                    </div> <!-- Skills Container END -->
-                    <img class="git-img" src="./public/images/git-lines.png" alt="git-lines">
-                    <div class="skills-container two"> <!-- Skills Container START -->
-                        <div class="title-skill">
-                            <h2 class="titles">Responsive and Cross-Browser Compatibility</h2>
-                            <ul id="web-technol-list" class="list-style">
-                                <li>Media Queries</li>
-                                <li>CSS Frameworks: (Tailwind CSS, Bootstrap)</li>
-                            </ul>
-                        </div>
-                        <div class="title-skill">
-                            <h2 class="titles">Package Management and Build Tools</h2>
-                            <ul id="web-technol-list" class="list-style">
-                                <li>npm</li>
-                            </ul>
-                        </div>
-                        <video autoplay loop muted>
-                            <source src="./public/images/robot-video.mp4" type="video/mp4">
-                        </video>
-                    </div> <!-- Skills Container END -->
-                    <video class="video-mobile" autoplay loop muted>
-                        <source src="./public/images/robot-video.mp4" type="video/mp4">
-                    </video>
-                    <img class="git-img2" src="./public/images/git-lines.png" alt="git-lines">
-                </div>
-            </div> <!-- Content Container END -->
-            <img class="straight-line-up" src="./public/images/black-arrow-up.png" alt="purple-arrow-up">
-        </div> 
-    </section> <!-- Fourth page END -->
-
-    <section class="page fifth" id="fifth-page"> <!-- Fifth page START -->
-        <div class="fifth-page-container"> 
-            <img class="straight-line-down" src="./public/images/white-arrow-down.png" alt="purple-arrow-down">
-            <div class="fifth-content-container"> <!-- Content Container START -->
-                <img class="img-404" src="./public/images/404.png" alt="404-image">
-                <div class="jokes-container">
-                    <div class="joke-container">
-                        <div class="question-button-container">
-                            <h2>Why do programmers prefer dark mode?</h2>
-                            <button onclick="showAnswer('answer1')">Reveal</button>
-                        </div>
-                        <p id="answer1" class="answer">Because the light attracts bugs!</p>
-                    </div>
-                    <div class="joke-container">
-                        <div class="question-button-container">
-                            <h2>Why do Java developers wear glasses?</h2>
-                            <button onclick="showAnswer('answer2')">Reveal</button>
-                        </div>
-                        <p id="answer2" class="answer">Because they don’t C#!</p>
-                    </div>
-                    <div class="joke-container">
-                        <div class="question-button-container">
-                            <h2>Why did the programmer go broke?</h2>
-                            <button onclick="showAnswer('answer3')">Reveal</button>
-                        </div>
-                        <p id="answer3" class="answer">Because they used up all their cache!</p>
-                    </div>
-                    <div class="joke-container">
-                        <div class="question-button-container">
-                            <h2>Why did the web developer leave the restaurant?</h2>
-                            <button onclick="showAnswer('answer4')">Reveal</button>
-                        </div>
-                        <p id="answer4" class="answer">Because they couldn’t find the table!</p>
-                    </div>
-                    <div class="joke-container">
-                        <div class="question-button-container">
-                            <h2>Why did the functions stop calling each other?</h2>
-                            <button onclick="showAnswer('answer5')">Reveal</button>
-                        </div>
-                        <p id="answer5" class="answer">Because they had constant arguments!</p>
-                    </div>
-                </div>
-                <img class="mini-logo" src="./public/images/starfox.png" alt="fox-logo">
-            </div> <!-- Content Container END -->
+    <section class="page fourth" id="fourth-page">
+      <!-- Fourth page START -->
+      <div class="fourth-page-container">
+        <img
+          class="straight-line-down"
+          src="./public/images/black-arrow-down.webp"
+          alt="purple arrow down"
+        />
+        <div class="fourth-content-container">
+          <!-- Content Container START -->
+          <h2 class="title grey">SKILLS</h2>
+          <div class="skills-container-and-img">
+            <div class="skills-container">
+              <!-- Skills Container START -->
+              <div class="title-skill">
+                <h3 class="titles">Web Technologies</h3>
+                <ul id="web-technol-list" class="list-style">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Javascript</li>
+                  <li>Typescript</li>
+                  <li>Svelte</li>
+                  <li>Astro</li>
+                </ul>
+              </div>
+              <div class="title-skill">
+                <h3 class="titles">Version Control</h3>
+                <ul id="web-technol-list" class="list-style">
+                  <li>Git/ Github</li>
+                </ul>
+              </div>
+              <div class="title-skill">
+                <h3 class="titles">Basic Back-End Knowledge</h3>
+                <ul id="web-technol-list" class="list-style">
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                </ul>
+              </div>
+              <div class="title-skill title-skill-mobile">
+                <h3 class="titles">
+                  Responsive and Cross-Browser Compatibility
+                </h3>
+                <ul id="web-technol-list" class="list-style">
+                  <li>Media Queries</li>
+                  <li>CSS Frameworks: (Bootstrap, Tailwind CSS)</li>
+                </ul>
+              </div>
+              <div class="title-skill title-skill-mobile">
+                <h3 class="titles">Package Management and Build Tools</h3>
+                <ul id="web-technol-list" class="list-style">
+                  <li>npm</li>
+                </ul>
+              </div>
+              <div class="title-skill">
+                <h3 class="titles">Soft Skills</h3>
+                <ul id="web-technol-list" class="list-style">
+                  <li>Communication</li>
+                  <li>Teamwork</li>
+                  <li>Attention to Detail</li>
+                  <li>Adaptability</li>
+                  <li>Time Management</li>
+                  <li>Problem Solving</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Skills Container END -->
+            <img
+              class="git-img"
+              src="./public/images/git-lines.webp"
+              alt="git lines"
+              loading="lazy"
+            />
+            <div class="skills-container two">
+              <!-- Skills Container START -->
+              <div class="title-skill">
+                <h3 class="titles">
+                  Responsive and Cross-Browser Compatibility
+                </h3>
+                <ul id="web-technol-list" class="list-style">
+                  <li>Media Queries</li>
+                  <li>CSS Frameworks: (Tailwind CSS, Bootstrap)</li>
+                </ul>
+              </div>
+              <div class="title-skill">
+                <h3 class="titles">Package Management and Build Tools</h3>
+                <ul id="web-technol-list" class="list-style">
+                  <li>npm</li>
+                </ul>
+              </div>
+              <img
+                class="programming-girl"
+                src="./public/images/programming-girl.gif"
+                alt="animated girl holding tags"
+                loading="lazy"
+              />
+            </div>
+            <!-- Skills Container END -->
+            <img
+              class="programming-girl-mobile"
+              src="./public/images/programming-girl.gif"
+              alt="animated girl holding tags mobile"
+              loading="lazy"
+            />
+            <img
+              class="git-img2"
+              src="./public/images/git-lines.webp"
+              alt="git lines"
+              loading="lazy"
+            />
+          </div>
         </div>
-    </section> <!-- Fifth page END -->
-    
+        <!-- Content Container END -->
+        <img
+          class="straight-line-up"
+          src="./public/images/black-arrow-up.webp"
+          alt="purple arrow up"
+        />
+      </div>
+    </section>
+    <!-- Fourth page END -->
+
+    <section class="page fifth" id="fifth-page">
+      <!-- Fifth page START -->
+      <div class="fifth-page-container">
+        <img
+          class="straight-line-down"
+          src="./public/images/white-arrow-down.webp"
+          alt="purple arrow down"
+        />
+        <div class="fifth-content-container">
+          <!-- Content Container START -->
+          <img class="img-404" src="./public/images/404.webp" alt="404 image" />
+          <div class="jokes-container">
+            <div class="joke-container">
+              <div class="question-button-container">
+                <p>Why do programmers prefer dark mode?</p>
+                <button onclick="showAnswer('answer1')">Reveal</button>
+              </div>
+              <p id="answer1" class="answer">
+                Because the light attracts bugs!
+              </p>
+            </div>
+            <div class="joke-container">
+              <div class="question-button-container">
+                <p>Why do Java developers wear glasses?</p>
+                <button onclick="showAnswer('answer2')">Reveal</button>
+              </div>
+              <p id="answer2" class="answer">Because they don’t C#!</p>
+            </div>
+            <div class="joke-container">
+              <div class="question-button-container">
+                <p>Why did the programmer go broke?</p>
+                <button onclick="showAnswer('answer3')">Reveal</button>
+              </div>
+              <p id="answer3" class="answer">
+                Because they used up all their cache!
+              </p>
+            </div>
+            <div class="joke-container">
+              <div class="question-button-container">
+                <p>Why did the web developer leave the restaurant?</p>
+                <button onclick="showAnswer('answer4')">Reveal</button>
+              </div>
+              <p id="answer4" class="answer">
+                Because they couldn’t find the table!
+              </p>
+            </div>
+            <div class="joke-container">
+              <div class="question-button-container">
+                <p>Why did the functions stop calling each other?</p>
+                <button onclick="showAnswer('answer5')">Reveal</button>
+              </div>
+              <p id="answer5" class="answer">
+                Because they had constant arguments!
+              </p>
+            </div>
+          </div>
+          <img
+            class="mini-logo"
+            src="./public/images/starfox-black.webp"
+            alt="starfox logo"
+          />
+        </div>
+        <!-- Content Container END -->
+      </div>
+    </section>
+    <!-- Fifth page END -->
+
     <script src="./index.js"></script>
     <script src="./animation.js"></script>
-</body>
+  </body>
 </html>

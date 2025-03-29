@@ -1,0 +1,5 @@
+User-agent: *  
+Disallow: /admin/  
+Disallow: /private/  
+Allow: /  
+Sitemap: https://starfoxx-21.github.io/sitemap.xml

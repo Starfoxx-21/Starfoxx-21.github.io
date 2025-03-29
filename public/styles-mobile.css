@@ -8,7 +8,7 @@
         gap: 56px;
     }
 
-    video {
+    .robot-video {
         max-height: 320px;
         max-width: 320px;
     }
@@ -243,7 +243,7 @@
         width: 100px;
     }
 
-    video {
+    .robot-video {
         max-height: 300px;
         max-width: 300px;
     }
@@ -270,11 +270,6 @@
     .first-page .logo {
         width: min(20vh, 20vw);
         
-    }
-    
-    .introduction-container h1 {
-        margin-top: -3vh;
-        font-size: min(10vh, 10vw);
     }
     
     .introduction-container h2 {
@@ -340,9 +335,6 @@
 
 @media only screen and (max-width: 650px) {
 
-    .introduction-container h1 {
-        margin-top: -2vh;
-    }
 
     .star-heading-right {
         width: 85px;
@@ -448,7 +440,7 @@
     }
 
     .skills-container-and-img {
-        padding-top: 20px;
+        padding-top: 5px;
     }
 
     .title-skill.title-skill-mobile {
@@ -468,16 +460,16 @@
         z-index: 3;
     }
 
-    video {
+    .robot-video {
         display: none;
     }
 
-    .video-mobile {
+    .programming-girl-mobile {
         position: absolute;
         display: inline;
         margin: 0;
-        max-height: 150px;
-        max-width: 150px;
+        max-height: 200px;
+        max-width: 230px;
         height: 100%;
         width: 100%;
         right: 15vw;
@@ -512,11 +504,6 @@
 
     .first-page .logo {
         width: min(20vh, 22vw);
-    }
-    
-    .introduction-container h1 {
-        margin-top: -2vh;
-        font-size: min(11vh, 11vw);
     }
     
     .introduction-container h2 {
@@ -670,6 +657,12 @@
         width: 4px;
         height: 4px;
     }
+
+    .programming-girl-mobile {
+        max-height: 170px;
+        max-width: 190px;
+        right: 12vw;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -814,12 +807,6 @@
 
     .skills-container {
         gap: 16px;
-    }
-
-    .video-mobile {
-        max-height: 130px;
-        max-width: 130px;
-        right: 12vw;
     }
 
     .git-img2 {
