@@ -252,9 +252,9 @@
         width: 300px;
     }
 
-    .question-button-container h2 {
+    .question {
         font-size: 20px;
-    }
+      }
 
     .answer {
         font-size: 18px;
@@ -324,9 +324,13 @@
         width: 250px;
     }
 
-    .question-button-container h2 {
-        font-size: 18px;
+    .question-button-container button {
+        font-size: 14px;
     }
+
+    .question {
+        font-size: 18px;
+      }
 
     .answer {
         font-size: 15px;
@@ -347,10 +351,6 @@
     .question-button-container {
         flex-direction: column;
         align-items: center;
-    }
-
-    .question-button-container h2 {
-        font-size: 17px;
     }
 
     .question-button-container {
@@ -615,15 +615,15 @@
         width: 250px;
     }
 
-    .question-button-container h2 {
-        font-size: 16px;
-    }
-
     .question-button-container button {
         height: 22px;
         padding: 2px 13px;
-        font-size: 13px;
+        font-size: 11px;
     }
+
+    .question {
+        font-size: 15px;
+      }
 
     .answer {
         font-size: 14px;
@@ -702,10 +702,6 @@
 
     .img-404 {
         width: 240px;
-    }
-
-    .question-button-container h2 {
-        font-size: 15px;
     }
 
     .answer {
@@ -814,9 +810,9 @@
         gap: 18px;
     }
 
-    .question-button-container h2 {
+    .question {
         font-size: 13px;
-    }
+      }
 
     .answer {
         font-size: 11px;
