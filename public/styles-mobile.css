@@ -479,9 +479,10 @@
     .git-img {
         width: 0;
         visibility: hidden;
+        height: 0;
     }
     
-    .git-img2 {
+    .git-img-mobile {
         position: absolute;
         display: inline;
         visibility: visible;
@@ -792,10 +793,6 @@
         height: 3px;
     }
 
-    .fourth-content-container {
-        max-height: 570px;
-    }
-
     .fourth-content-container .titles {
         font-size: 14px;
     }
@@ -809,7 +806,7 @@
         gap: 16px;
     }
 
-    .git-img2 {
+    .git-img-mobile {
         height: 500px;
     }
 

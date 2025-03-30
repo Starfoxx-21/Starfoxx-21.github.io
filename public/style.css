@@ -691,7 +691,7 @@ a {
   object-fit: cover;
 }
 
-.git-img2 {
+.git-img-mobile {
   width: 0;
   visibility: hidden;
 }
