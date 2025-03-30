@@ -1,17 +1,19 @@
 // Cursor
 
 const cursor = document.getElementById("custom-cursor");
-
-document.addEventListener("mousemove", (e) => {
-  if (cursor) {
-    cursor.style.left = `${e.clientX}px`;
-    cursor.style.top = `${e.clientY}px`;
-  }
-});
-
 const hoverElements = document.querySelectorAll("a, button, img, .custom-cursor");
 
-hoverElements.forEach((element) => {
+const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+if (!isTouchDevice) {
+  document.addEventListener("mousemove", (e) => {
+    if (cursor) {
+      cursor.style.left = `${e.clientX}px`;
+      cursor.style.top = `${e.clientY}px`;
+    }
+  });
+
+  hoverElements.forEach((element) => {
     element.addEventListener("mouseenter", () => {
       cursor.classList.add("hover");
     });
@@ -20,6 +22,7 @@ hoverElements.forEach((element) => {
       cursor.classList.remove("hover");
     });
   });
+}
 
 // Scrollbar
 
