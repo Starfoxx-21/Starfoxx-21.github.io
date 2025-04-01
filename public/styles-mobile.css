@@ -269,11 +269,14 @@
 
     .first-page .logo {
         width: min(20vh, 20vw);
-        
+    }
+
+    .introduction-container h1 {
+        font-size: min(13vh, 13vw);
     }
     
     .introduction-container h2 {
-        font-size: min(2.7vh, 2.7vw);
+        font-size: min(3vh, 3vw);
     }
 
     .interests-container img {
@@ -338,7 +341,6 @@
 }
 
 @media only screen and (max-width: 650px) {
-
 
     .star-heading-right {
         width: 85px;
@@ -497,7 +499,6 @@
 
 @media only screen and (max-width: 500px) {
 
-
     .second-page-container, .third-page-container, .fourth-page-container, .fifth-page-container {
         width: 95%;
         margin: 70px auto;
@@ -506,9 +507,13 @@
     .first-page .logo {
         width: min(20vh, 22vw);
     }
+
+    .introduction-container h1 {
+        font-size: min(13vh, 13vw);
+    }
     
     .introduction-container h2 {
-        font-size: min(2.9vh, 2.9vw);
+        font-size: min(3vh, 3vw);
     }
 
     .second-page-container {

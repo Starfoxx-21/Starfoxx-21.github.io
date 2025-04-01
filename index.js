@@ -122,3 +122,9 @@ function showAnswer(answerID) {
     }, 500);
   }
 }
+
+// Fix for viewport issue on mobiles
+
+let vh = window.innerHeight * 0.01;
+
+document.documentElement.style.setProperty('--vh', `${vh}px`);
