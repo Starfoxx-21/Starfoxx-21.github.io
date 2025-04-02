@@ -637,6 +637,10 @@
 
 @media only screen and (max-width: 460px) {
 
+    .introduction-container {
+        min-height: 0;
+    }
+
     .date-timeline {
         min-width: 130px;
         border: 2px solid white;
