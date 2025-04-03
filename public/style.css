@@ -19,7 +19,10 @@ html {
 }
 
 @media (-webkit-device-pixel-ratio: 1.25) {
-  .second-page-container, .third-page-container, .fourth-page-container, .fifth-page-container {
+  .second-page-container,
+  .third-page-container,
+  .fourth-page-container,
+  .fifth-page-container {
     zoom: 0.8;
   }
 
