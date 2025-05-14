@@ -394,9 +394,9 @@ section {
 
 .planet {
   position: absolute;
-  top: -40px;
+  top: -70px;
   left: -10px;
-  width: 130px;
+  width: 180px;
 }
 
 .stars {
@@ -407,7 +407,7 @@ section {
   transform: rotate(-5deg);
 }
 
-.satellite2 {
+.space2 {
   width: 0;
   visibility: hidden;
 }
@@ -416,10 +416,10 @@ section {
   position: relative;
 }
 
-.satellite {
+.space {
   position: absolute;
   right: 0;
-  width: 100px;
+  width: 170px;
 }
 
 .info-section {
